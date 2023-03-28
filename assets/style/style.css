@@ -49,7 +49,8 @@ body {
   font-size: var(--normal-font-size);
   color: #fff;
   background-color: var(--first-color);
-  overflow-x: hidden;
+  overflow-x: hidden !important;
+  width: 100%;
 }
 
 h1,
@@ -110,6 +111,10 @@ img {
   100% {
     transform: scale(0.5) rotate(360deg);
   }
+}
+
+h1[class*=header] {
+  min-height: 100px !important;
 }
 
 header {
@@ -196,6 +201,7 @@ header .container a.header-btn {
 #hero {
   width: 100%;
   padding-block: 50px;
+  overflow-x: hidden;
 }
 #hero .container .row h1.title {
   font-weight: 700;
@@ -239,6 +245,7 @@ main {
 }
 main #about {
   padding-block: 50px;
+  overflow-x: hidden;
 }
 @media (max-width: 600px) {
   main #about .container .row .img-div {
@@ -287,6 +294,7 @@ main #about .container .row a.btn {
 main #features {
   width: 100%;
   padding-block: 50px;
+  overflow-x: hidden;
 }
 main #features h1.title {
   font-weight: 700;

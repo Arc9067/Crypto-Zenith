@@ -50,7 +50,8 @@ body {
   font-size: var(--normal-font-size);
   color: #fff;
   background-color: var(--first-color);
-  overflow-x: hidden;
+  overflow-x: hidden !important;
+  width: 100%;
 }
 
 h1,
@@ -121,6 +122,11 @@ img {
       transform: scale(0.5) rotate(360deg);
     }
   }
+}
+
+h1[class*="header"] {
+  min-height: 100px !important;
+  // background-color: red;
 }
 
 header {
@@ -221,6 +227,7 @@ header {
 #hero {
   width: 100%;
   padding-block: 50px;
+  overflow-x: hidden;
 
   .container {
     .row {
@@ -272,6 +279,7 @@ main {
 
   #about {
     padding-block: 50px;
+    overflow-x: hidden;
     .container {
       .row {
         @media (max-width: 600px) {
@@ -331,6 +339,7 @@ main {
     width: 100%;
     // background-color: red;
     padding-block: 50px;
+    overflow-x: hidden;
 
     h1.title {
       font-weight: 700;
