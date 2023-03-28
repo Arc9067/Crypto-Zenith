@@ -203,6 +203,10 @@ header .container a.header-btn {
   padding-block: 50px;
   overflow-x: hidden;
 }
+#hero .container .row h2.title {
+  font-weight: 700;
+  font-size: 30px;
+}
 #hero .container .row h1.title {
   font-weight: 700;
   font-size: 64px;
