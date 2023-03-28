@@ -11,7 +11,7 @@ let year = new Date().getFullYear();
 date.textContent = year;
 
 var heroType = new Typed(".home-header", {
-  strings: ["The Next Big Thing is Here"],
+  strings: ["Ensuring A Stable Price For Investors"],
   typeSpeed: 200,
   backSpeed: 200,
   loop: true,
@@ -29,7 +29,7 @@ var aboutType = new Typed(".about-header", {
 });
 
 var featuresType = new Typed(".features-header", {
-  strings: ["our features"],
+  strings: ["my features"],
   typeSpeed: 200,
   backSpeed: 200,
   loop: true,

@@ -398,7 +398,7 @@ main #plan p {
   }
 }
 main #plan .row div {
-  height: 300px;
+  height: 320px;
   border: 1px solid #c55c17;
   border-radius: 8px;
   display: flex;
