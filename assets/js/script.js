@@ -11,7 +11,7 @@ let year = new Date().getFullYear();
 date.textContent = year;
 
 var heroType = new Typed(".home-header", {
-  strings: ["Ensuring A Stable Price For Investors"],
+  strings: ["Crypto Zenith $CZTH"],
   typeSpeed: 200,
   backSpeed: 200,
   loop: true,
